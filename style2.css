@@ -10,7 +10,7 @@
     background-size: cover;
 }
 
-.btn_one i{
+.btn_one i {
     color: white;
     font-size: 30px;
     font-weight: 700;
@@ -49,7 +49,7 @@
     font-weight: 500;
 }
 
-.sidebar_menu .btn_two i{
+.sidebar_menu .btn_two i {
     color: gray;
     font-size: 25px;
     line-height: 60px;
@@ -83,45 +83,47 @@ a {
     padding-right: 8px;
 }
 
-.sidebar_menu .social_media{
+.sidebar_menu .social_media {
     position: absolute;
     left: 25%;
     bottom: 50px;
 }
 
-.sidebar_menu .social_media i{
+.sidebar_menu .social_media i {
     color: white;
     opacity: 0.5;
     padding: 0 5px;
 }
-#check{
+
+#check {
     display: none;
 }
 
-.sidebar_menu .menu li:hover{
-
+.sidebar_menu .menu li:hover {
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
-                 
 }
 
-.btn_one i:hover{
-     font-size: 40px;
+.btn_one i:hover {
+    font-size: 40px;
 }
 
-.btn_two i:hover{
+.btn_two i:hover {
     font-size: 30px;
 }
-.sidebar_menu .social_media i:hover{
-            opacity: 1;
-            transform: scale(1.3);
-}
-#check:checked ~ .sidebar_menu{
-     left: 0px;
-}
-#check:checked ~ .btn_one i{
-     opacity: 0;
+
+.sidebar_menu .social_media i:hover {
+    opacity: 1;
+    transform: scale(1.3);
 }
 
-#check:checked ~ .sidebar_menu .btn_two i{
-     opacity: 1;
+#check:checked~.sidebar_menu {
+    left: 0px;
+}
+
+#check:checked~.btn_one i {
+    opacity: 0;
+}
+
+#check:checked~.sidebar_menu .btn_two i {
+    opacity: 1;
 }
